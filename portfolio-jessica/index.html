@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jessica Silva — Desenvolvedora Full Stack Java Júnior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="layout">
+
+      <aside class="side">
+        <!-- Coloque sua foto em img/foto.jpg. Se não existir, aparece img/avatar.svg -->
+        <img class="photo" src="img/9FD46202-782F-4639-AE1E-8E8F41F9AE9B.JPG" onerror="this.onerror=null;this.src='img/avatar.svg'" alt="Foto de Jessica Silva">
+        <div>
+          <h1>Jessica Silva</h1>
+          <p class="role">
+            Desenvolvedora Full Stack Java Júnior<br>Estudante de Análise e Desenvolvimento de Sistemas
+          </p>
+        </div>
+
+        <nav class="menu">
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Habilidades</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#formacao">Formação</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="social">
+          <a href="https://github.com/JessicaSilva14" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/jessica-silva-devfront/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:jessicaasilva.014@gmail.com">E-mail</a>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="term" aria-label="Terminal animado com apresentação">
+          <div class="bar">
+            <i></i>
+            <i></i>
+            <i></i>
+            <span>Jessica.Java</span>
+          </div>
+          <pre id="out"></pre>
+        </div>
+
+        <section id="sobre" class="rv">
+          <h2>Sobre</h2>
+          <p class="about">
+            Curso <strong>Análise e Desenvolvimento de Sistemas na Uninter</strong> e complemento com a formação
+            <strong>Full Stack Java da EBAC</strong>. Na prática, construo APIs REST com Spring Boot, aplicações
+            Java com testes em JUnit 5 e interfaces web com React e TypeScript. Venho de mais de 5 anos em
+            gestão administrativa e logística, então levo organização, análise de dados e atenção a detalhes
+            para o código. Busco estágio ou posição júnior.
+          </p>
+        </section>
+
+        <section id="skills" class="rv">
+          <h2>Habilidades</h2>
+          <div class="grp">
+            <h3>Linguagens</h3>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+            </div>
+          </div>
+          <div class="grp">
+            <h3>Back-end</h3>
+            <div class="chips">
+              <span class="chip">Spring Boot</span>
+              <span class="chip">Spring MVC</span>
+              <span class="chip">Spring Security</span>
+              <span class="chip">Spring Data JPA</span>
+              <span class="chip">Hibernate</span>
+              <span class="chip">JDBC</span>
+              <span class="chip">APIs RESTful</span>
+              <span class="chip">JUnit 5</span>
+            </div>
+          </div>
+          <div class="grp">
+            <h3>Front-end</h3>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">Bootstrap</span>
+              <span class="chip">React</span>
+              <span class="chip">Styled Components</span>
+              <span class="chip">Node.js</span>
+            </div>
+          </div>
+          <div class="grp">
+            <h3>Boas práticas</h3>
+            <div class="chips">
+              <span class="chip">POO</span>
+              <span class="chip">SOLID</span>
+              <span class="chip">Design Patterns</span>
+              <span class="chip">Lambdas e Streams</span>
+              <span class="chip">Threads</span>
+              <span class="chip">Exceções</span>
+            </div>
+          </div>
+          <div class="grp">
+            <h3>Ferramentas e dados</h3>
+            <div class="chips">
+              <span class="chip">Git/GitHub</span>
+              <span class="chip">Maven</span>
+              <span class="chip">Figma</span>
+              <span class="chip">H2</span>
+              <span class="chip">Modelagem relacional</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="projetos" class="rv">
+          <h2>Projetos</h2>
+          <div class="proj">
+            <div class="card">
+              <button aria-expanded="false">
+                <span>
+                  <h3>Detector de Fraudes</h3>
+                  <span class="tag">Java 17 · console</span>
+                </span>
+                <span class="plus">+</span>
+              </button>
+              <div class="body">
+                <div>
+                  <p>
+                    Lê transações de um CSV e sinaliza as suspeitas com regras extensíveis: valor muito acima da média
+                    do cliente, transações em sequência e horário incomum. Cada regra implementa uma interface comum,
+                    então novas regras entram sem alterar o detector (princípio aberto/fechado). Valores com BigDecimal.
+                  </p>
+                  <div class="chips">
+                    <span class="chip">Java 17</span>
+                    <span class="chip">Streams</span>
+                    <span class="chip">Maven</span>
+                    <span class="chip">JUnit 5</span>
+                  </div>
+                  <div class="links">
+                    <a href="https://github.com/JessicaSilva14/detector-de-fraudes-simples-" target="_blank" rel="noopener">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <button aria-expanded="false">
+                <span>
+                  <h3>Mini Banco</h3>
+                  <span class="tag">Java 17 · console</span>
+                </span>
+                <span class="plus">+</span>
+              </button>
+              <div class="body">
+                <div>
+                  <p>
+                    Sistema bancário com conta corrente (cheque especial) e poupança, depósito, saque, transferência,
+                    extrato e rendimento de juros. Herança e polimorfismo para as regras de cada conta, exceções
+                    personalizadas e BigDecimal contra erros de arredondamento.
+                  </p>
+                  <div class="chips">
+                    <span class="chip">Java 17</span>
+                    <span class="chip">POO</span>
+                    <span class="chip">Maven</span>
+                    <span class="chip">JUnit 5</span>
+                  </div>
+                  <div class="links">
+                    <a href="https://github.com/JessicaSilva14/mini-banco" target="_blank" rel="noopener">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <button aria-expanded="false">
+                <span>
+                  <h3>Cliente Service</h3>
+                  <span class="tag">API REST · Spring Boot 3</span>
+                </span>
+                <span class="plus">+</span>
+              </button>
+              <div class="body">
+                <div>
+                  <p>
+                    API RESTful para cadastro, consulta e atualização de clientes, organizada em camadas (controller,
+                    service, repository) com separação de responsabilidades.
+                  </p>
+                  <div class="chips">
+                    <span class="chip">Spring Boot 3</span>
+                    <span class="chip">Spring Data JPA</span>
+                    <span class="chip">H2</span>
+                    <span class="chip">Lombok</span>
+                  </div>
+                  <div class="links">
+                    <a href="https://github.com/JessicaSilva14/spring-boot-cliente-api" target="_blank" rel="noopener">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <button aria-expanded="false">
+                <span>
+                  <h3>efood — Delivery de Gastronomia</h3>
+                  <span class="tag">React · TypeScript</span>
+                </span>
+                <span class="plus">+</span>
+              </button>
+              <div class="body">
+                <div>
+                  <p>
+                    Plataforma de delivery com restaurantes por categoria, rotas dinâmicas por perfil e cardápio
+                    personalizado. Interface fiel ao protótipo do Figma, com componentes modulares e design responsivo.
+                  </p>
+                  <div class="chips">
+                    <span class="chip">React</span>
+                    <span class="chip">TypeScript</span>
+                    <span class="chip">Vite</span>
+                    <span class="chip">Styled Components</span>
+                    <span class="chip">React Router</span>
+                  </div>
+                  <div class="links">
+                    <a href="https://github.com/JessicaSilva14/EFOOD." target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://efood-five-xi.vercel.app/" target="_blank" rel="noopener">Ver online</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="formacao" class="rv">
+          <h2>Formação</h2>
+          <div class="tl">
+            <article class="now">
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <small>Uninter · 2026–2029 (previsão)</small>
+            </article>
+            <article class="now">
+              <h3>Programação e Desenvolvimento de Software</h3>
+              <small>Uninter · 2026–2027 (previsão)</small>
+            </article>
+            <article class="now">
+              <h3>Santander - Cibersegurança do Zero a prática</h3>
+              <small>DIO · 2026–2027 (previsão)</small>
+            </article>
+            <article>
+              <h3>Desenvolvimento Full Stack Java</h3>
+              <small>EBAC · 2024–2026 ·</small>
+              <p>Java, POO, SOLID, JPA/Hibernate, Spring Boot e Maven.</p>
+            </article>
+            <article>
+              <h3>Desenvolvimento Back-end Python</h3>
+              <small>Alura · 2025–2026</small>
+              <p>Python, Flask, testes automatizados e deploy.</p>
+            </article>
+            <article>
+              <h3>Inteligência Artificial</h3>
+              <small>EBAC · 2026</small>
+            </article>
+            <article>
+              <h3>TI do Zero ao Pro</h3>
+              <small>EBAC · 2024</small>
+            </article>
+            <article>
+              <h3>Técnico em Administração</h3>
+              <small>ETEC Gino Rezaghi · 2019–2020</small>
+            </article>
+            <article>
+              <h3>Técnico em Computação</h3>
+              <small>Fast Comp · 2013–2015</small>
+            </article>
+          </div>
+          <h3 class="sub">Experiência anterior</h3>
+          <div class="tl">
+            <article>
+              <h3>Analista Administrativo de Transportes Sênior</h3>
+              <small>Helpful Recursos Humanos · Ago 2023 – Mar 2026</small>
+              <p>
+                Fluxo de caixa, conciliação bancária, relatórios e KPIs, auditoria de fretes e documentos fiscais
+                (CT-e, MDF-e).
+              </p>
+            </article>
+            <article>
+              <h3>Assistente Administrativo</h3>
+              <small>ManpowerGroup Brasil · 2022–2023</small>
+            </article>
+            <article>
+              <h3>Aprendiz</h3>
+              <small>Geocal Mineração · 2020</small>
+            </article>
+            <article>
+              <h3>Representante de Atendimento ao Cliente</h3>
+              <small>Americanas S.A. · Nov 2019 – Jan 2020</small>
+            </article>
+          </div>
+        </section>
+
+        <section id="contato" class="contact rv">
+          <h2>Contato</h2>
+          <p>
+            Aberta a estágio e posições júnior em desenvolvimento e análise de sistemas. Inglês básico, com
+            leitura de documentação técnica.
+          </p>
+          <a class="big" href="mailto:jessicaasilva.014@gmail.com">jessicaasilva.014@gmail.com</a>
+          <p>(11) 97560-6039 · Cajamar, SP</p>
+        </section>
+
+        <footer>© 2026 Jessica Silva</footer>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
